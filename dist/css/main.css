@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  line-height: 1.6;
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  color: #333; }
+
+ul {
+  list-style: none; }
+
+a {
+  color: #333;
+  text-decoration: none; }
+
+h1,
+h2,
+h3 {
+  line-height: 1.2;
+  font-weight: 300; }
+
+img {
+  width: 100%; }
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  padding: 0 2rem;
+  position: fixed;
+  top: 0;
+  background: #fff; }
+  .navbar img {
+    display: none; }
+
+.navbar ul {
+  display: flex; }
+
+.navbar a {
+  padding: 1.5rem; }
+
+#contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 200px;
+  padding: 150px 0; }
+  #contact h2 {
+    padding-bottom: 20px;
+    font-weight: bold; }
+  #contact .form-control form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  #contact .form-control input[type="email"] {
+    width: 300px;
+    padding: 7px;
+    margin-bottom: 15px; }
+  #contact .form-control button {
+    cursor: pointer;
+    width: 160px;
+    padding: 3px;
+    border: none;
+    background: #ffd000;
+    font-weight: bold;
+    font-size: 1.2rem; }
+
+#features {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  #features .flexbox-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding: 20px 5px; }
+    #features .flexbox-items .icon {
+      width: 125px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center; }
+      #features .flexbox-items .icon i {
+        color: #ff8800; }
+    #features .flexbox-items .info {
+      margin: 0 20px;
+      padding: 0 20px; }
+      #features .flexbox-items .info h3 {
+        font-size: 1.5rem;
+        font-weight: bold; }
+
+.youtube-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 4rem 0; }
+
+#prices {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 60px; }
+  #prices .flexbox-guitar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    border: 1px solid #333;
+    margin: 40px 10px;
+    width: 350px; }
+    #prices .flexbox-guitar h3 {
+      padding: 10px 0;
+      background: #333;
+      width: 100%;
+      height: 100%;
+      color: #fff;
+      margin-bottom: 10px; }
+    #prices .flexbox-guitar .price {
+      font-size: 1.4rem;
+      margin-bottom: 15px;
+      font-weight: bolder; }
+    #prices .flexbox-guitar p:nth-last-of-type(1) {
+      margin-bottom: 20px; }
+    #prices .flexbox-guitar a {
+      margin-bottom: 10px;
+      padding: 5px 25px;
+      background: #fffb00;
+      line-height: 2rem;
+      border-radius: 0.2rem; }
+
+#main-footer {
+  max-width: 1150px;
+  background: #333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 0 auto;
+  padding: 10px; }
+  #main-footer .links ul {
+    display: flex;
+    flex-direction: row; }
+    #main-footer .links ul a {
+      color: #fff;
+      padding: 10px; }
+  #main-footer span {
+    margin-top: 5px;
+    font-size: 1em; }
+
+@media (max-width: 650px) {
+  .navbar {
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    height: 120px; }
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+      padding: 5px 0; }
+  #contact {
+    margin-top: 60px; }
+  #features .flexbox-items .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 25px; }
+  #features .flexbox-items .icon {
+    display: none; }
+  #prices {
+    flex-direction: column; } }

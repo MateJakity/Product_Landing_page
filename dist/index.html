@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/1c211df223.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <header id="header">
+      <div class="navbar">
+        <img src="./img/corporate.jpg" id="header-img">
+        <h1><i class="fas fa-guitar"></i>Original Guitars</h1>
+        <nav id="nav-bar">
+          <ul>
+            <li><a href="#features" class="nav-link">Features</a></li>
+            <li><a href="#video" class="nav-link">How It Works</a></li>
+            <li><a href="#prices" class="nav-link">Pricing</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div id="contact">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <div class="form-control">
+          <form action="https://www.freecodecamp.com/email-submit" id="form">
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email address"
+            />
+            <input type="submit" id="submit" value="Get Started">
+              GET STARTED
+            </button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- Section A: Flexbox-Items -->
+      <section id="features">
+        <div class="flexbox-items">
+          <div class="icon">
+            <i class="fas fa-fire fa-3x"></i>
+          </div>
+          <div class="info">
+            <h3>Premium Sounds</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestias, nostrum maxime illo quis nobis laborum fuga ex
+              consequuntur!
+            </p>
+          </div>
+        </div>
+        <div class="flexbox-items">
+          <div class="icon">
+            <i class="fas fa-dollar-sign fa-3x"></i>
+          </div>
+          <div class="info">
+            <h3>Affordable Price</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestias, nostrum maxime illo quis nobis laborum fuga ex
+              consequuntur!
+            </p>
+          </div>
+        </div>
+        <div class="flexbox-items">
+          <div class="icon">
+            <i class="fas fa-heart fa-3x"></i>
+          </div>
+          <div class="info">
+            <h3>Made With Love</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Molestias, nostrum maxime illo quis nobis laborum fuga ex
+              consequuntur!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section B: Youtube Video -->
+      <section id="listen">
+        <div class="youtube-box">
+          <iframe
+            id="video"
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/ALLuI1OHs-w"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+
+      <!-- Section C: Prices -->
+      <section id="prices">
+        <div class="flexbox-guitar">
+          <h3>Classic Guitar</h3>
+          <p class="price">$600</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum.</p>
+          <a href="#">SELECT</a>
+        </div>
+        <div class="flexbox-guitar">
+          <h3>Metal Guitar</h3>
+          <p class="price">$900</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum.</p>
+          <a href="#">SELECT</a>
+        </div>
+        <div class="flexbox-guitar">
+          <h3>Bass Guitar</h3>
+          <p class="price">$1200</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum.</p>
+          <p>Lorem, ipsum dolor.</p>
+          <p>Lorem, ipsum.</p>
+          <a href="#">SELECT</a>
+        </div>
+      </section>
+    </main>
+
+    <footer id="main-footer">
+      <div class="links">
+        <ul>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <span>Copyright 2016, Original Guitars</span>
+    </footer>
+  </body>
+</html>
